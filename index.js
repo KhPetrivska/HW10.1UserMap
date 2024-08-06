@@ -6,11 +6,11 @@ const users = {
   city: "Toronto",
   citizenship: "canadian",
   nationality: "indian",
-  returnData: function () {
+  displayData: function () {
     console.log(
       `This is ${this.name} ${this.secondName} from ${this.city}. Age is: ${this.age}. Citizenship: ${this.citizenship}. Nationality: ${this.nationality}.`
     );
   },
 };
 
-users.returnData();
+users.displayData();
